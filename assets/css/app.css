@@ -1,0 +1,13 @@
+.body-wrapper{
+	padding-top: 70px;
+}
+
+/* Helper Class */
+.list-inline-dot li{ position: relative; }
+.list-inline-dot li:after{ content: '.'; position: absolute; right: -5px; top: -6px; margin-left: 15px; font-size: 18px; }
+.list-inline-dot li:last-child:after{ display: none; }
+.navbar-btn-group{ padding-right: 15px; }
+.legend{ padding-bottom: 15px; }
+/* Footer */
+footer .copyright{ margin-right: 2em; }
+footer .list-inline-dot li.copyright:after{ display: none; }
